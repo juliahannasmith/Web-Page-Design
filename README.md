@@ -1,0 +1,1 @@
+This repository contains the makings of website describing the creators. We have pitures and information abotu each of the creators.
