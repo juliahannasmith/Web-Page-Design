@@ -1,13 +1,13 @@
 h1 {
-  color : darkcyan;
+  color : purple;
 }
 
 h2{
-    color: darkcyan
+    color: purple
 }
 
 h3{
-    color: darkcyan
+    color: purple
 }
 
 p {
@@ -21,4 +21,8 @@ li{
 
 td{
     font-family: sans-serif
+}
+
+body {
+    background-color: papayawhip;
 }
