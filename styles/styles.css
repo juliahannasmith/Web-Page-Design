@@ -1,9 +1,30 @@
 h1 {
-  color : blue ;
-  background-color : yellow ;
-  border : 1px solid black ;
+
+  color : purple;
+
+}
+
+h2{
+    color: purple
+}
+
+h3{
+    color: purple
 }
 
 p {
-  color : red ;
+  color : black ;
+  font-family: sans-serif
+}
+
+li{
+    font-family: sans-serif
+}
+
+td{
+    font-family: sans-serif
+}
+
+body {
+    background-color: papayawhip;
 }
