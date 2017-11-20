@@ -28,5 +28,5 @@ function dateMessage(){
         var month = today.getMonth();
         var date = today.getDate();
         var year = today.getFullYear();
-       return today
+       return "Today is ", dayArray[day], ", ", monthArray[month], " ", [date], ", ", [year]
 }
