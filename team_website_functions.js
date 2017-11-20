@@ -1,4 +1,7 @@
 randomGreeting()
+            var myArray = ['Hello!', 'Hi!', 'Bonjour!', 'Hola!' , "Welcome to Chili's" , 'Sah dude'];
+            var rand = myArray[Math.floor(Math.random() * myArray.length)];
+            document.write(rand);
 
 
 
