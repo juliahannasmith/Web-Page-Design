@@ -31,3 +31,46 @@ function dateMessage(){
        return monthArray[month]
        return dayArray[day]
 }
+<<<<<<< HEAD
+=======
+
+
+
+function birthdayCountDown(07/11/2000){
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+       return date
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
