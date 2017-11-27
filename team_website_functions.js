@@ -1,8 +1,8 @@
-randomGreeting()
+function randomGreeting(){
             var myArray = ['Hello!', 'Hi!', 'Bonjour!', 'Hola!' , "Welcome to Chili's" , 'Sah dude'];
             var rand = myArray[Math.floor(Math.random() * myArray.length)];
             document.write(rand);
-
+}
 
 
 
@@ -28,7 +28,6 @@ function dateMessage(){
         var month = today.getMonth();
         var date = today.getDate();
         var year = today.getFullYear();
-<<<<<<< HEAD
        return today
 }
 
@@ -69,4 +68,5 @@ function birthdayCountDown(07/11/2000){
 
 =======
        return date
+>>>>>>> origin/master
 >>>>>>> origin/master
