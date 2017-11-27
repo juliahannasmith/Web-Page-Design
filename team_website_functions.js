@@ -28,31 +28,6 @@ function dateMessage(){
         var month = today.getMonth();
         var date = today.getDate();
         var year = today.getFullYear();
-       return today
+       return monthArray[month]
+       return dayArray[day]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-       return date
->>>>>>> origin/master
->>>>>>> origin/master
