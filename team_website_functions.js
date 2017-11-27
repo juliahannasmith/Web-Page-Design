@@ -28,4 +28,5 @@ function dateMessage(){
         var month = today.getMonth();
         var date = today.getDate();
         var year = today.getFullYear();
-       return date
+       return
+}
