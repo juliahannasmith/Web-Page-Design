@@ -28,15 +28,12 @@ function dateMessage(){
         var month = today.getMonth();
         var date = today.getDate();
         var year = today.getFullYear();
-       return monthArray[month]
-       return dayArray[day]
+    return dayArray[day] + ", " + monthArray[month] + " " + [date] + ", " + [year]
 }
-<<<<<<< HEAD
-=======
 
 
 
-function birthdayCountDown(07/11/2000){
+function birthdayCountDown(){
 
 
 
@@ -51,26 +48,3 @@ function birthdayCountDown(07/11/2000){
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-       return date
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
