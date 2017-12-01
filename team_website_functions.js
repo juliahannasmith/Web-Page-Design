@@ -1,4 +1,4 @@
-function randomGreeting() {
+function Greeting() {
     var myArray = ['Hello!', 'Hi!', 'Bonjour!', 'Hola!', "Welcome to Chili's", 'Sah dude']
     return myArray[Math.floor(Math.random() * myArray.length)]
     }
