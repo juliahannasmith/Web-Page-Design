@@ -18,8 +18,17 @@ function randomGreeting() {
         var monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
         var month = today.getMonth();
         var date = today.getDate();
+            if (date == 1 || date == 21 || date == 31){
+                dayEnding = "st";
+            }else if (date == 2 || date == 22){
+                 dayEnding = "nd";
+            }else if (date == 3 || date == 23){
+                dayEnding = "rd";
+            }else{
+                 dayEnding = "th";
+            }
         var year = today.getFullYear();
-        return dayArray[day] + ", " + monthArray[month] + " " + [date] + ", " + [year]
+     return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
     }
 
 
