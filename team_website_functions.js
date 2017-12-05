@@ -1,16 +1,30 @@
 function greeting() {
     var today = new Date();
     var day = today.getDay();
+    var hour = today.getHour();
+    if (day == 6 || day == 0 ){
+        if (hour >= 0 && hour <= 10 ){
+            return "Go back to sleep, it's the weekend!"
+        }
+        else{
 
-}
+        }
 
-
-
-
-
-
-
-
+    }
+    else if (day == 1 && hour >= 0 && hour <= 8){
+        return "Ugh, it's Monday morning!"
+    }
+    else if (day == 2|| day == 3 || day == 4 || day == 5){
+        if (hour >= 0 && hour <= 9){
+            return "Good Morning"
+        }
+        else if (hour >= 10 && hour <= 17){
+            return "Good Day!"
+        }
+        else (hour >= 18 && hour <= 23){
+            return "Good Evening!"
+        }
+    }
 
     function dateMessage() {
         var today = new Date();
@@ -32,16 +46,5 @@ function greeting() {
      return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
     }
 
-
-
     function birthdayCountDown() {
-
-
-
-
-
-
-
-
-
-    }
+}
