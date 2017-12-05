@@ -81,7 +81,7 @@ mybirthday.setFullYear (today.getFullYear());
 var diff = mybirthday.getTime() - today.getTime();
 var days = math.floor(diff / (1000 * 60 * 60 * 24))
 
-
+return("My Birthday is in" + days +" days ":("));
 
 
 
