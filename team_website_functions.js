@@ -43,8 +43,27 @@ function greeting() {
                  dayEnding = "th";
             }
         var year = today.getFullYear();
-     return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
+        return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
     }
 
-    function birthdayCountDown() {
+
+
+function birthdayCountDown(){
+
+    var end = new Date();
+    var seconds = math.floor
+    var minutes = math.floor
+    var hours = math.floor
+
+
+
+
+
+
+
+
+
+
+
 }
+
