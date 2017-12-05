@@ -32,7 +32,6 @@ function greeting(){
     }
 }
 
-
 function dateMessage() {
         var today = new Date();
         var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -53,13 +52,36 @@ function dateMessage() {
         return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
     }
 
+function birthdayCountDown(bdate) {
 
-
-function birthdayCountDown(){
 
     var end = new Date();
     var seconds = math.floor
     var minutes = math.floor
     var hours = math.floor
-}
+    var birthday = new Date(birthdate);
+    var currenttime = today.getTime();
+    var birthtime = birthday.getTime();
 
+    if ((birthtime - currenttime) < 0) {
+
+
+birthday.setFullYear(today.getFullYear());
+
+
+
+
+
+
+
+
+>>>>>>> origin/master
+
+    }
+
+
+
+
+
+}
+l
