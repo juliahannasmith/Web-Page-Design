@@ -82,15 +82,11 @@ function birthdayCountDown(bdate) {
     if ((birthtime - currenttime) < 0) {
 
 
+birthday.setFullYear(today.getFullYear());
 
 
 
 
-
-
-
-
-<<<<<<< HEAD
 
 
 
@@ -103,5 +99,4 @@ function birthdayCountDown(bdate) {
 
 
 }
-=======
->>>>>>> origin/master
+l
