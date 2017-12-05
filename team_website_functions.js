@@ -75,7 +75,7 @@ function birthdayCountDown(bdate) {
     var today = new Date();
     var mybirthday = new Date(birthdate);
 mybirthday.setFullYear (today.getFullYear());
-    if (today.getTime()> myBirthday.getTime()) {
+    if (today.getTime() > myBirthday.getTime()) {
         mybirthday.setFullYear(today.getFullYear());
     }
 var diff = mybirthday.getTime() - today.getTime();
@@ -83,17 +83,7 @@ var days = math.floor(diff / (1000 * 60 * 60 * 24))
 
 return("My Birthday is in" + days +" days ":("));
 
-
-
-
-
-
-
-
-
-
-
-}
+       }
 
 
 
