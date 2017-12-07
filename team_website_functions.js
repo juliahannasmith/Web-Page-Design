@@ -33,27 +33,26 @@ function dateMessage() {
         var month = today.getMonth();
         var date = today.getDate();
             if (date == 1 || date == 21 || date == 31){
-                dayEnding = "st";
+        dayEnding = "st";
             }else if (date == 2 || date == 22){
-                 dayEnding = "nd";
+        dayEnding = "nd";
             }else if (date == 3 || date == 23){
-                dayEnding = "rd";
+        dayEnding = "rd";
             }else{
-                 dayEnding = "th";
+        dayEnding = "th";
             }
         var year = today.getFullYear();
         return dayArray[day] + ", " + monthArray[month] + " " + [date] + dayEnding + ", " + [year]
 }
 
-
-function birthdayCountDown(bdate) {
+function birthdayCountDown(bday) {
     var today = new Date();
-    var mybirthday = new Date(birthdate);
-mybirthday.setFullYear (today.getFullYear());
-    if (today.getTime()> myBirthday.getTime()) {
-        mybirthday.setFullYear(today.getFullYear());
+    var myBirthday = new Date(bday);
+myBirthday.setTime(today.getTime());
+    if (today.getTime() > myBirthday.getTime()) {
+        myBirthday.setFullYear(today.getFullYear());
     }
-var diff = mybirthday.getTime() - today.getTime();
-var days = math.floor(diff / (1000 * 60 * 60 * 24))
-return("My Birthday is in" + days +" days ");
+var diff = myBirthday.getTime() - today.getTime();
+var days = Math.floor(diff / (1000 * 60 * 60 * 24))
+return("My birthday is in " + days + " days ");
 }
